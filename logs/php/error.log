@@ -1,0 +1,97 @@
+[24-Oct-2023 03:37:53 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[24-Oct-2023 03:38:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Elementor')
+#1 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\themes\business-chat\lib\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('Elementor')
+#2 C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\includes\class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\themes\business-chat\lib\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\themes\business-chat\lib\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\themes\business-chat\lib\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\themes\business-chat\lib\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\PC\\Loc...')
+#12 {main}
+  thrown in C:\Users\PC\Local Sites\testcarso\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+[24-Oct-2023 04:32:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:32:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:32:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:34:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:34:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:36:22 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:36:22 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:01 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:01 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:01 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:16 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:16 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:16 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:21 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:21 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:21 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:33 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:33 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:33 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:40 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:40 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:41 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:55 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:37:55 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:38:15 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:38:15 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:38:15 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:38:34 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:38:34 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:39:20 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:39:20 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:41:53 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:41:53 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:41:53 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:04 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:04 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:04 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:56 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:57 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:57 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:42:57 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:44:08 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 636
+[24-Oct-2023 04:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php:636
+Stack trace:
+#0 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\helper.php(195): Boostify_Header_Footer\Template->template_footer_id()
+#1 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\elementor\class-template-render.php(74): boostify_footer_template_id()
+#2 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(310): Boostify_Header_Footer\Template_Render->enqueue_scripts('')
+#3 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#6 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#7 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#10 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\templates\default\header.php(21): wp_head()
+#11 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php(102): require('C:\\Users\\PC\\Loc...')
+#12 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(312): Boostify_Header_Footer\Template->render_header(NULL)
+#13 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#14 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#16 C:\Users\PC\Local Sites\testcarso\app\public\wp-content\themes\business-chat\index.php(19): get_header()
+#17 C:\Users\PC\Local Sites\testcarso\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\PC\\Loc...')
+#18 C:\Users\PC\Local Sites\testcarso\app\public\wp-blog-header.php(19): require_once('C:\\Users\\PC\\Loc...')
+#19 C:\Users\PC\Local Sites\testcarso\app\public\index.php(17): require('C:\\Users\\PC\\Loc...')
+#20 {main}
+  thrown in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 636
+[24-Oct-2023 04:44:15 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:44:15 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:44:15 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:45:44 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:45:44 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:45:45 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:47:29 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:47:29 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 04:47:29 UTC] PHP Warning:  Undefined variable $header in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\boostify-header-footer-builder\inc\class-template.php on line 632
+[24-Oct-2023 07:09:49 UTC] PHP Warning:  Undefined array key "" in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\countdown-builder\assets\views\generalOptions.php on line 75
+[24-Oct-2023 07:11:01 UTC] PHP Warning:  Undefined array key "" in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\countdown-builder\assets\views\generalOptions.php on line 75
+[24-Oct-2023 07:11:11 UTC] PHP Warning:  Undefined array key "" in C:\Users\PC\Local Sites\testcarso\app\public\wp-content\plugins\countdown-builder\assets\views\generalOptions.php on line 75
